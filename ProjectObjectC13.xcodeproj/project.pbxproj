@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		75DF88B11F53F14D00D53D4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DF88B01F53F14D00D53D4D /* main.m */; };
 		75DF88B91F53F1A700D53D4D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DF88B81F53F1A700D53D4D /* Person.m */; };
+		75DF88BC1F5415A200D53D4D /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DF88BB1F5415A200D53D4D /* Circle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		75DF88B01F53F14D00D53D4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		75DF88B71F53F1A700D53D4D /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		75DF88B81F53F1A700D53D4D /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		75DF88BA1F5415A200D53D4D /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		75DF88BB1F5415A200D53D4D /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				75DF88B01F53F14D00D53D4D /* main.m */,
 				75DF88B71F53F1A700D53D4D /* Person.h */,
 				75DF88B81F53F1A700D53D4D /* Person.m */,
+				75DF88BA1F5415A200D53D4D /* Circle.h */,
+				75DF88BB1F5415A200D53D4D /* Circle.m */,
 			);
 			path = ProjectObjectC13;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75DF88BC1F5415A200D53D4D /* Circle.m in Sources */,
 				75DF88B91F53F1A700D53D4D /* Person.m in Sources */,
 				75DF88B11F53F14D00D53D4D /* main.m in Sources */,
 			);

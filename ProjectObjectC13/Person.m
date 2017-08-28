@@ -32,16 +32,13 @@
     if (page<=0||page>200) {
         assert(0);
     }
- 
-    
-    //设置数据  他们是等价的
+    //设置数据  他们是等价的  但是 在这里不能用self.age=page; [self setAge:page]; 因为这是死循环了
     _age=page;
 //    self.age=page;
 //    [self setAge:page];
 
 }
 -(void) setXxx:(float)f{
-
     printf("setXxx:%f\n",f);
 }
 
